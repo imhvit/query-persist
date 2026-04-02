@@ -1,6 +1,6 @@
 {
   "name": "query-persist",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Persist query params easily",
   "type": "module",
   "main": "./dist/index.cjs",
