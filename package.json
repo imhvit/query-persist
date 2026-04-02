@@ -1,0 +1,42 @@
+{
+  "name": "query-persist",
+  "version": "0.1.0",
+  "description": "Persist query params easily",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imhvit/query-persist.git"
+  },
+  "keywords": [
+    "query",
+    "persist"
+  ],
+  "author": "imhvit",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "8.5.1",
+    "typescript": "5.9.3",
+    "vitest": "4.1.2"
+  }
+}
